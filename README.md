@@ -14,12 +14,11 @@ IDBI Bank A/c NN9089 debited for INR 1000; ATM WDL. Bal INR 5106.36 (incl. of un
     "available": "5106.36",
     "outstanding": null
   }
-}```
-
-===============================
-
+}
+```
 Your a/c no. XXXXXXXXXXX9089 is debited for Rs.180.00 on 06-08-23 and credited to a/c no. XXXXXXXXXX0007  (UPI Ref no 321829270097).To block UPI services of IDBI Bank, Send SMS as UPIBLOCK <type your mobile no> to 07799000565 from your registered number, or call 18002094324 immediately.- IDBI BANK
-```{
+```
+{
   "account": {
     "type": "upi",
     "number": "321829270097",
@@ -31,7 +30,8 @@ Your a/c no. XXXXXXXXXXX9089 is debited for Rs.180.00 on 06-08-23 and credited t
     "available": null,
     "outstanding": null
   }
-}```
+}
+```
 
 ===============================
 
