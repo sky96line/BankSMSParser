@@ -1,6 +1,17 @@
 # BankSMSParser
 This to extract transection data from bank sms.
 
+```
+Engine engine = new Engine();
+var sms = <bank sms>;
+
+TransactionInfo transection = engine.GetTransactionInfo(s.Trim());
+
+Console.WriteLine(t.ToString());
+```
+
+Here are some of the example.
+
 * IDBI Bank A/c NN9089 debited for INR 1000; ATM WDL. Bal INR 5106.36 (incl. of uncleared chqs) as of 06AUG 20:51hrs. If card not used by you, call 1800226999
 ```
 {
