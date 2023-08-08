@@ -25,7 +25,7 @@ public enum EnumAccountType
 
 public class Engine
 {
-    public string getTransactionAmount(object messages)
+    public string GetTransactionAmount(object messages)
     {
         var processedMessage = Utils.getProcessedMessage(messages);
         var index = processedMessage.IndexOf("rs.");
@@ -63,7 +63,7 @@ public class Engine
         return Utils.padCurrencyValue(money);
     }
 
-    public EnumTransactionType? getTransactionType(object message)
+    public EnumTransactionType? GetTransactionType(object message)
     {
 
         Regex creditPattern = new Regex("(?:credited|credit|deposited|added|received|refund|repayment)", RegexOptions.ECMAScript);
@@ -93,7 +93,7 @@ public class Engine
         return null;
     }
 
-    public TransactionInfo getTransactionInfo(string message)
+    public TransactionInfo GetTransactionInfo(string message)
     {
         if (string.IsNullOrWhiteSpace(message))
         {
@@ -107,7 +107,7 @@ public class Engine
           EnumBalanceKeyWordsType.AVAILABLE
         );
 
-        var transactionAmount = getTransactionAmount(processedMessage);
+        var transactionAmount = GetTransactionAmount(processedMessage);
 
         List<string> ava = new List<string>()
             {
@@ -118,7 +118,7 @@ public class Engine
 
         var isValid = ava.Where(x => !string.IsNullOrWhiteSpace(x)).Count() >= 2;
 
-        var transactionType = isValid ? getTransactionType(processedMessage) : null;
+        var transactionType = isValid ? GetTransactionType(processedMessage) : null;
         Balance balance = new Balance()
         {
             available = availableBalance,
