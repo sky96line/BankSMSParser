@@ -2,7 +2,8 @@
 This to extract transection data from bank sms.
 
 IDBI Bank A/c NN9089 debited for INR 1000; ATM WDL. Bal INR 5106.36 (incl. of uncleared chqs) as of 06AUG 20:51hrs. If card not used by you, call 1800226999
-```{
+```
+{
   "account": {
     "type": "card",
     "number": null,
@@ -36,6 +37,7 @@ Your a/c no. XXXXXXXXXXX9089 is debited for Rs.180.00 on 06-08-23 and credited t
 ===============================
 
 IDBI Bank A/C NN09089 debited INR. 8934.00 Det:ACH-AAVAS FINANCIER-DLAMR01420. Bal (incl. of chq in clg) INR. 6286.36 as of 05AUG 15:55 hrs.
+```
 {
   "account": {
     "type": "account",
@@ -49,10 +51,12 @@ IDBI Bank A/C NN09089 debited INR. 8934.00 Det:ACH-AAVAS FINANCIER-DLAMR01420. B
     "outstanding": null
   }
 }
+```
 
 ===============================
 
 IDBI Bank A/c NN09089 credited for INR 10000.00 thru UPI. Bal INR 15220.36 (incl. of chq in clg) as of 03 AUG 16:02hr. If not used by you, call 18002094324
+```
 {
   "account": {
     "type": null,
@@ -66,10 +70,12 @@ IDBI Bank A/c NN09089 credited for INR 10000.00 thru UPI. Bal INR 15220.36 (incl
     "outstanding": null
   }
 }
+```
 
 ===============================
 
 IDBI Bank A/C NN09089 debited INR. 5150.00 Det:ACH-HDBFINANCIALSER-34675825. Bal (incl. of chq in clg) INR. 5220.36 as of 02AUG 09:49 hrs.
+```
 {
   "account": {
     "type": "account",
@@ -83,10 +89,12 @@ IDBI Bank A/C NN09089 debited INR. 5150.00 Det:ACH-HDBFINANCIALSER-34675825. Bal
     "outstanding": null
   }
 }
+```
 
 ===============================
 
 IDBI Bank A/c NN09089 credited for INR 2.00 thru UPI. Bal INR 12119.36 (incl. of chq in clg) as of 29 JUL 05:00hr. If not used by you, call 18002094324
+```
 {
   "account": {
     "type": null,
@@ -100,10 +108,12 @@ IDBI Bank A/c NN09089 credited for INR 2.00 thru UPI. Bal INR 12119.36 (incl. of
     "outstanding": null
   }
 }
+```
 
 ===============================
 
 Your a/c no. XXXXXXXXXXX9089 is debited for Rs.220.00 on 23-07-23 and credited to a/c no. XXXXXXXXXXX0025  (UPI Ref no 320455493701).To block UPI services of IDBI Bank, Send SMS as UPIBLOCK <type your mobile no> to 08657864165 from your registered number, or call 18002094324 immediately.- IDBI BANK
+```
 {
   "account": {
     "type": "upi",
@@ -117,10 +127,11 @@ Your a/c no. XXXXXXXXXXX9089 is debited for Rs.220.00 on 23-07-23 and credited t
     "outstanding": null
   }
 }
-
+```
 ===============================
 
 Your UPI-Recurring Mandate is successfully created towards GOOGLE INDIA DIGITAL SERVICES PVT LTD for Rs. 129.00. From A/C No. XXXXXXXXX009089. 459a007e4a084ce6a1e320fc6f1bae6c@okaxis - IDBI BANK
+```
 {
   "account": {
     "type": "account",
@@ -134,6 +145,7 @@ Your UPI-Recurring Mandate is successfully created towards GOOGLE INDIA DIGITAL 
     "outstanding": null
   }
 }
+```
 
 ===============================
 
