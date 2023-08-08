@@ -1,5 +1,6 @@
 # BankSMSParser
 This to extract transection data from bank sms. thanks to [saurabhgupta050890](https://github.com/saurabhgupta050890/transaction-sms-parser).
+I have converted this npm library to .NET library.
 
 ```
 Engine engine = new Engine();
