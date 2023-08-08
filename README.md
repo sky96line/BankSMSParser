@@ -150,6 +150,7 @@ Your UPI-Recurring Mandate is successfully created towards GOOGLE INDIA DIGITAL 
 ===============================
 
 Your a/c no. XXXXXXXXXXX9089 is debited for Rs.10.00 on 28-07-23 and credited to a/c no. XXXXXXXXXX6417  (UPI Ref no 320989710133).To block UPI services of IDBI Bank, Send SMS as UPIBLOCK <type your mobile no> to 08657864165 from your registered number, or call 18002094324 immediately.- IDBI BANK
+```
 {
   "account": {
     "type": "upi",
@@ -163,10 +164,12 @@ Your a/c no. XXXXXXXXXXX9089 is debited for Rs.10.00 on 28-07-23 and credited to
     "outstanding": null
   }
 }
+```
 
 ===============================
 
 IDBI Bank A/C NN09089 credited INR. 64824.00 Det:NEFT-KCCBN23194182037-DEV INFO. Bal (incl. of chq in clg) INR. 66034.94 as of 13JUL 13:40 hrs.
+```
 {
   "account": {
     "type": null,
@@ -180,10 +183,12 @@ IDBI Bank A/C NN09089 credited INR. 64824.00 Det:NEFT-KCCBN23194182037-DEV INFO.
     "outstanding": null
   }
 }
+```
 
 ===============================
 
 IDBI Bank A/c NN9089 debited for INR 2000; ATM WDL. Bal INR 1493.94 (incl. of uncleared chqs) as of 09JUL 06:27hrs. If card not used by you, call 1800226999
+```
 {
   "account": {
     "type": "card",
@@ -197,5 +202,4 @@ IDBI Bank A/c NN9089 debited for INR 2000; ATM WDL. Bal INR 1493.94 (incl. of un
     "outstanding": null
   }
 }
-
-===============================
+```
